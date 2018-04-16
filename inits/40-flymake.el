@@ -10,7 +10,7 @@
       (list "/home/lr/kobayasi/.pyenv/shims/pyflakes" (list local-file))))
   (add-to-list 'flymake-allowed-file-name-masks
                '("\\.py\\'" flymake-pyflakes-init)))
-                                        ; show message on mini-buffer
+;; show message on mini-buffer
 (defun flymake-show-help ()
   (when (get-char-property (point) 'flymake-overlay)
     (let ((help (get-char-property (point) 'help-echo)))
