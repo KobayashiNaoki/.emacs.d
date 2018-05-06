@@ -11,6 +11,7 @@
     flymake-cursor
     flymake-easy
     flymake-python-pyflakes
+    w3m
     ))
 
 (let ((not-installed (loop for x in installing-package-list
