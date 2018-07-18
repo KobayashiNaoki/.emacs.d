@@ -55,7 +55,6 @@
 (define-key global-map "\C-h" 'delete-backward-char)
 
 ;; 色テーマをロード
-;;(load-theme 'misterioso t)
 (setq custom-theme-directory "~/.emacs.d/themes/")
-(load-theme 'molokai t)
-(enable-theme 'molokai)
+(load-theme 'misterioso t)
+;;(load-theme 'molokai t)
