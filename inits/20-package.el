@@ -11,7 +11,7 @@
     flymake-cursor
     flymake-easy
     flymake-python-pyflakes
-    w3m
+    ;;w3m
     highlight-symbol
     ))
 
