@@ -23,6 +23,10 @@
 
 ;; 行数を表示する
 (global-linum-mode t)
+(setq linum-format "%3d ")
+(set-face-attribute 'linum nil
+                    :foreground "#a9a9a9"
+                    :height 0.9)
 
 ;; カーソルの点滅をやめる
 (blink-cursor-mode 0)
@@ -46,3 +50,6 @@
 
 ;; "yes or no" の選択を "y or n" にする
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;; C-hをdeleteへ
+(define-key global-map "\C-h" 'delete-backward-char)
