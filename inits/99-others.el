@@ -58,3 +58,4 @@
 (setq custom-theme-directory "~/.emacs.d/themes/")
 (load-theme 'misterioso t)
 ;;(load-theme 'molokai t)
+;;(load-theme 'monokai t)
