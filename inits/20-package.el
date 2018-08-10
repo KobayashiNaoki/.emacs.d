@@ -13,6 +13,7 @@
     flymake-python-pyflakes
     ;;w3m
     highlight-symbol
+    web-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
