@@ -3,6 +3,8 @@
 (defvar installing-package-list
   '(
     ;; ここに使っているパッケージを書く
+    neotree
+    all-the-icons
     tabbar
     markdown-mode
     jedi
