@@ -3,8 +3,8 @@
 (require 'python)
 
 ;; PYTHONPATH上のソースコードがauto-completeの補完対象になる
-;; (setenv "PYTHONPATH" "/usr/local/lib/python2.7/site-packages")
-;; (setenv "/home/lr/kobayasi/.pyenv/versions/3.6.5/lib/python3.6/site-packages")
+(setenv "PYTHONPATH" "/usr/local/lib/python3.5/site-packages")
+;; (setenv "PYTHONPATH" "/home/lr/kobayasi/.pyenv/versions/3.6.5/lib/python3.6/site-packages")
 (require 'jedi)
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
