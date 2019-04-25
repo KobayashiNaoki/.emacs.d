@@ -16,6 +16,7 @@
     ;;w3m
     highlight-symbol
     web-mode
+    ;;rainbow-delimiters
     ))
 
 (let ((not-installed (loop for x in installing-package-list
