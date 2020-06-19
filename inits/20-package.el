@@ -16,6 +16,7 @@
     ;;w3m
     highlight-symbol
     web-mode
+    php-mode
     ;;rainbow-delimiters
     ))
 
