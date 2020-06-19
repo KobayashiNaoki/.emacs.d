@@ -31,17 +31,17 @@
 ;; 色設定
 (set-face-attribute ; バー自体の色
  'tabbar-default nil
- :background "white"
+ :background "brightwhite"
  :family "Inconsolata"
  :height 1.0)
 (set-face-attribute ; アクティブなタブ
  'tabbar-selected nil
- :background "black"
- :foreground "white"
+ :background "cyan"
+ :foreground "brightwhite"
  :weight 'bold
  :box nil)
 (set-face-attribute ; 非アクティブなタブ
  'tabbar-unselected nil
- :background "white"
+ :background "brightwhite"
  :foreground "black"
  :box nil)
